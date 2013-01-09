@@ -5,7 +5,7 @@ class RemoteTableModel < ActiveRecord::Base
       :adapter  => 'mysql2',
       :host     => "bunt.c76vwj0m73zb.us-east-1.rds.amazonaws.com",
       :username => "magz",
-      :password => "roebling909",
+      :password => "xxxxxxx",
       :timeout  => 10000,
 
       :database => "bunt",
