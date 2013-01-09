@@ -1,0 +1,4 @@
+HUDDLE:<br>
+<% %w(huddle_monitor trades huddle_last_messages_sent retention sits_and_starts).each do |p| %>
+	<%= link_to p, "/analytics/" + p %><br>
+<% end %>

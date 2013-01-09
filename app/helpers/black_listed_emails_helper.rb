@@ -1,0 +1,2 @@
+module BlackListedEmailsHelper
+end

@@ -1,0 +1,124 @@
+body {
+	min-width: 768px;
+	max-width: 768px;
+}
+
+#bottom_slogan {
+	width: 768px;
+}
+#bottom_slogan #text {
+	position: relative;
+	top: 10px;
+}
+#footer {
+	width: 768px;
+}
+
+#focus_avatar_section #focus_avatar_message {
+	left: 30px;
+	top: 27px;
+}
+#focus_avatar_section #focus_avatar{
+	top: 19px;
+}
+
+#focus_avatar_section #get_the_app_button {
+	left: 40px;
+}
+#focus_avatar_section #user_info {
+	top: 94px;
+	left: 29px;
+}
+
+#focus_avatar_section #team_logo {
+	top: 93px;
+	left: 200px;
+}
+
+#focus_avatar {
+	position: absolute;
+	z-index: 25;
+}
+
+#bottom_slogan {
+	font-size: 2.5em;
+}
+.bleacher_fan {
+	position: absolute;
+}
+
+#bear_right_corner{}
+#bear_right_of_main{
+	top: 70px;
+	left: 175px;
+}
+
+
+#beards {
+	z-index: 15;
+	left: 330px;
+	top: 47px;
+}
+
+#hipster {
+	z-index: 17;
+	left: 463px;
+	top: 33px;
+}
+
+#kid_right_corner {
+	left: 445px;
+	top: 194px;
+	z-index: 22;
+}
+#kid_left_of_main {}
+
+#orangekid_left_of_main {}
+#orangekid_right_of_main {}
+
+#phanatic {
+	z-index: 2;
+	left: 402px;
+	top: 0px;
+}
+
+#pigeon {
+	z-index: 22;
+	left: 435px;
+	top: 157px;
+}
+
+#redgirl {
+	z-index: 5;
+	left: 333px;
+	top: 8px;
+}
+
+
+
+
+
+.seat_row {
+	position: absolute;
+}
+
+#first_row {
+	z-index: 20;
+	top: 280px;
+}
+
+#second_row {
+	z-index: 10;
+	top: 294px;
+}
+
+#third_row {
+	z-index: 0;
+	top: 0px;
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+
+<h1>USER COUNT <%= @user_count.to_s %> </h1>
+<h2>ACTIVE USERS IN LAST 30 DAYS: <%= @mau %> </h2>
+<img src="<%=@dau_chart_url%>">
+<!-- <img src="<%=@trade_count_chart_url%>">
+ --><img src="<%=@push_notifications_chart_url%>">
+<img src="<%=@emails_chart_url%>"><br>
+<img src="<%=@news_fans_chart_url%>">
+<!-- <img src="<%=@hourly_emails_chart_url%>">
+<img src="<%=@hourly_pushes_chart_url%>">
+ -->
+
+<%= @days_of_week %>
+
+<br><br>
+Email data:<br>
+<% @emails.zip(@days_of_week).each do |pair| %>
+	<%= pair %><br>
+<% end %>
+<br><br>
+Push Notificaiton data:<br>
+<% @push_notifications.zip(@days_of_week).each do |pair| %>
+	<%= pair %><br>
+<% end %>
+
+<br><br>
+New user data:<br>
+<% @new_users.zip(@days_of_week).each do |pair| %>
+	<%= pair %><br>
+<% end %>
+
+<br><br>
+dau data:<br>
+<% @dau.zip(@days_of_week).each do |pair| %>
+	<%= pair %><br>
+<% end %>
+
+
+
+

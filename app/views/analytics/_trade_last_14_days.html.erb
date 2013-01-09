@@ -1,0 +1,121 @@
+<html>
+TRADE EFFICACY OVER TIME <br>
+<div id="trade_breakdown" style="width: 100%; height: 400px;"></div><br>
+
+</html>
+<script>
+
+$().ready(function() {
+	    var chart;
+	    var chartData = [];
+	    var chartCursor;
+
+
+
+	    AmCharts.ready(function () {
+	    	function ajaxChartData(data_type) {
+				var get_result = [];
+	        	$.ajax({url: "/analytics/data/" + data_type, 
+	                    async: false, 
+	                    success: function(data){
+	                        for(i=0; i<data["data"].length; i++) {
+
+	                         chartData.push({"date": new Date(data["data"][i]["date"]), "trade_efficacy": data["data"][i]["trade_efficacy"]});
+	                        }
+	                    }
+	            })
+	        }
+
+	        ajaxChartData("trade_efficacy");
+	        // generateChartData();
+	        console.log(chartData);
+	        // SERIAL CHART    
+	        chart = new AmCharts.AmSerialChart();
+			chart.pathToImages = "/assets/amcharts/";
+	        chart.zoomOutButton = {
+	            backgroundColor: '#000000',
+	            backgroundAlpha: 0.15
+	        };
+	        chart.dataProvider = chartData;
+	        chart.categoryField = "date";
+
+	        // listen for "dataUpdated" event (fired when chart is rendered) and call zoomChart method when it happens
+	        // chart.addListener("dataUpdated", zoomChart);
+
+	        // AXES
+	        // category
+	        var categoryAxis = chart.categoryAxis;
+	        categoryAxis.parseDates = true; // as our data is date-based, we set parseDates to true
+	        categoryAxis.minPeriod = "DD"; // our data is daily, so we set minPeriod to DD
+	        categoryAxis.dashLength = 1;
+	        categoryAxis.gridAlpha = 0.15;
+	        categoryAxis.axisColor = "#DADADA";
+
+	        // value                
+	        var valueAxis = new AmCharts.ValueAxis();
+	        valueAxis.axisAlpha = 0.2;
+	        valueAxis.dashLength = 1;
+	        chart.addValueAxis(valueAxis);
+
+	        // GRAPHS
+	        
+	        var graph_arg_hashes=[{"graph_data_field": "trade_efficacy","color": "BLACK"},
+	        {"graph_data_field": "accpeted","color": "GREEN"},
+	        {"graph_data_field": "rejected","color": "RED"},
+	        {"graph_data_field": "cancelled","color": "YELLOW"},
+	        {"graph_data_field": "mooted","color": "BLUE"}]
+
+	        for(i=0; i<graph_arg_hashes.length; i++) {
+
+	        	var temp_graph =  new AmCharts.AmGraph();
+	        	temp_graph.valueField = graph_arg_hashes[i]["graph_data_field"];
+	        	temp_graph.title = graph_arg_hashes[i]["graph_data_field"];
+		        temp_graph.lineColor = graph_arg_hashes[i]["color"];
+		        
+
+   		        temp_graph.bullet = "round";
+   		        temp_graph.bulletBorderColor = "#FFFFFF";
+		        temp_graph.bulletBorderThickness = 2;
+		        temp_graph.lineThickness = 2;
+		        chart.addGraph(temp_graph);
+	        }
+	    	// var temp_graph =  new AmCharts.AmGraph();
+	    	// temp_graph.valueField = "trade_efficacy";
+	    	// // temp_graph.title = graph_arg_hashes[i]["graph_data_field"];
+	     //    temp_graph.lineColor = "BLACK"
+      //       temp_graph.bullet = "round";
+		    // temp_graph.bulletBorderColor = "#FFFFFF";
+	     //    temp_graph.bulletBorderThickness = 2;
+	     //    temp_graph.lineThickness = 2;
+	     //    chart.addGraph(temp_graph);
+
+
+		    //     temp_graph.bullet = "round";
+		    //     temp_graph.bulletBorderColor = "#FFFFFF";
+	     //    temp_graph.bulletBorderThickness = 2;
+	     //    temp_graph.lineThickness = 2;
+	     //    chart.addGraph(temp_graph);
+
+
+	        // CURSOR
+	        chartCursor = new AmCharts.ChartCursor();
+	        chartCursor.cursorPosition = "mouse";
+	        chart.addChartCursor(chartCursor);
+
+	        // SCROLLBAR
+	        // var chartScrollbar = new AmCharts.ChartScrollbar();
+	        // chartScrollbar.graph = graph;
+	        // chartScrollbar.scrollbarHeight = 40;
+	        // chartScrollbar.color = "#FFFFFF";
+	        // chartScrollbar.autoGridCount = true;
+	        // chart.addChartScrollbar(chartScrollbar);
+
+	        // WRITE
+	        chart.write("trade_breakdown");
+	    });
+
+
+
+
+});
+</script>

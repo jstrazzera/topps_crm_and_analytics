@@ -1,0 +1,67 @@
+<head>
+	<script type="text/javascript">
+$().ready(function() {
+	
+	function fillInSingleData(data_type, target_div) {
+		var get_result = [];
+        $.ajax({url: "/analytics/data/" + data_type, 
+                    async: false, 
+                    success: function(data){
+                         get_result = data["data"];
+                    }
+                });
+    
+		$(target_div).html(get_result);    
+	}
+	singleDataTargets = ["total_huddle_fans",
+						"email_huddle_fans",
+						"facebook_huddle_fans",
+						"twitter_huddle_fans",
+						"total_verified_huddle_fans",
+						"verified_email_huddle_fans",
+						"verified_facebook_huddle_fans",
+						"verified_twitter_huddle_fans",
+						"total_huddle_trades"]
+	for (var i=0; i<singleDataTargets.length; i++) {
+		fillInSingleData(singleDataTargets[i], "#" + singleDataTargets[i])
+	}
+
+
+	$.periodic({period: 600000}, function() {
+		$("#status").html("Refreshing....");
+
+		for (var i=0; i<singleDataTargets.length; i++) {
+			fillInSingleData(singleDataTargets[i], "#" + singleDataTargets[i])
+		}
+
+		console.log("done updating")
+
+	});
+
+	
+
+
+});	        
+	</script>
+</head>
+<body>
+	Total huddle fans: <span id="total_huddle_fans"></span><br>
+		Email huddle fans: <span id="email_huddle_fans"></span><br>
+		Facebook huddle fans: <span id="facebook_huddle_fans"></span><br>
+		Twitter huddle fans: <span id="twitter_huddle_fans"></span><br><br><br>
+
+	Verified<br>
+	Total verified huddle fans: <span id="total_verified_huddle_fans"></span><br>
+		Verified Email huddle fans: <span id="verified_email_huddle_fans"></span><br>
+		Verified Facebook huddle fans: <span id="verified_facebook_huddle_fans"></span><br>
+		Verified Twitter huddle fans: <span id="verified_twitter_huddle_fans"></span><br>
+
+	Total huddle trades: <span id="total_huddle_trades"></span>
+
+	<%= render partial: "new_registrations" %>
+	<%= render partial: "trade_count" %>
+	<%= render partial: "trade_last_14_days" %>
+</body>
+<script>
+
+</script>

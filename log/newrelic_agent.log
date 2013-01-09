@@ -1,0 +1,377 @@
+# Logfile created on 2012-10-03 17:02:12 -0400 by logger.rb/31641
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] INFO : Dispatcher: webrick
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 46328
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/03/12 17:02:12 -0400 michaels-MacBook-Air.local (46328)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] INFO : Dispatcher: webrick
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 46775
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/03/12 17:12:18 -0400 michaels-MacBook-Air.local (46775)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] INFO : Dispatcher: webrick
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 46787
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/03/12 17:13:08 -0400 michaels-MacBook-Air.local (46787)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] INFO : Dispatcher: webrick
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 20455
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/17/12 16:13:39 -0400 michaels-MacBook-Air.local (20455)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] INFO : Dispatcher: webrick
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21767
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/18/12 11:16:42 -0400 michaels-MacBook-Air.local (21767)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] INFO : Dispatcher: webrick
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 22322
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/18/12 13:27:42 -0400 michaels-MacBook-Air.local (22322)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] INFO : Dispatcher: webrick
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 99262
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/22/12 12:48:51 -0400 michaels-MacBook-Air.local (99262)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] INFO : Dispatcher: webrick
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 99578
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/22/12 14:31:09 -0400 michaels-MacBook-Air.local (99578)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/23/12 11:16:57 -0400 michaels-MacBook-Air.local (2035)] INFO : Dispatcher: webrick
+[10/23/12 11:16:57 -0400 michaels-MacBook-Air.local (2035)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/23/12 11:16:57 -0400 michaels-MacBook-Air.local (2035)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/23/12 11:16:57 -0400 michaels-MacBook-Air.local (2035)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2035
+[10/23/12 11:16:57 -0400 michaels-MacBook-Air.local (2035)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/23/12 11:16:58 -0400 michaels-MacBook-Air.local (2035)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] INFO : Dispatcher: webrick
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2276
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/23/12 12:01:54 -0400 michaels-MacBook-Air.local (2276)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] INFO : Dispatcher: webrick
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2385
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/23/12 12:17:55 -0400 michaels-MacBook-Air.local (2385)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] INFO : Dispatcher: webrick
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2415
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/23/12 12:24:23 -0400 michaels-MacBook-Air.local (2415)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] INFO : Dispatcher: webrick
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2613
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/23/12 12:59:21 -0400 michaels-MacBook-Air.local (2613)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] INFO : Dispatcher: webrick
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 17930
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/24/12 12:24:39 -0400 michaels-MacBook-Air.local (17930)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] INFO : Dispatcher: webrick
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 18817
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/24/12 13:45:01 -0400 michaels-MacBook-Air.local (18817)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/24/12 14:51:27 -0400 michaels-MacBook-Air.local (18817)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''yes)' at line 1: SELECT COUNT(*) FROM `huddle_profiles` INNER JOIN `fans` ON `fans`.`id` = `huddle_profiles`.`fan_id` WHERE (auth_type like 'twitter' AND verified like 'yes)
+[10/24/12 14:51:50 -0400 michaels-MacBook-Air.local (18817)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''yes)' at line 1: SELECT COUNT(*) FROM `huddle_profiles` INNER JOIN `fans` ON `fans`.`id` = `huddle_profiles`.`fan_id` WHERE (auth_type like 'bunt' AND verified like 'yes)
+[10/24/12 14:51:50 -0400 michaels-MacBook-Air.local (18817)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''yes)' at line 1: SELECT COUNT(*) FROM `huddle_profiles` INNER JOIN `fans` ON `fans`.`id` = `huddle_profiles`.`fan_id` WHERE (auth_type like 'facebook' AND verified like 'yes)
+[10/24/12 14:51:50 -0400 michaels-MacBook-Air.local (18817)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''yes)' at line 1: SELECT COUNT(*) FROM `huddle_profiles` INNER JOIN `fans` ON `fans`.`id` = `huddle_profiles`.`fan_id` WHERE (auth_type like 'twitter' AND verified like 'yes)
+[10/25/12 09:26:34 -0400 michaels-MacBook-Air.local (1873)] INFO : Dispatcher: webrick
+[10/25/12 09:26:34 -0400 michaels-MacBook-Air.local (1873)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/25/12 09:26:34 -0400 michaels-MacBook-Air.local (1873)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/25/12 09:26:34 -0400 michaels-MacBook-Air.local (1873)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 1873
+[10/25/12 09:26:34 -0400 michaels-MacBook-Air.local (1873)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/25/12 09:26:35 -0400 michaels-MacBook-Air.local (1873)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] INFO : Dispatcher: webrick
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 3040
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/25/12 14:57:05 -0400 michaels-MacBook-Air.local (3040)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] INFO : Dispatcher: webrick
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 3284
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/29/12 18:40:21 -0400 michaels-MacBook-Air.local (3284)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] INFO : Dispatcher: webrick
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7069
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 12:58:05 -0400 michaels-MacBook-Air.local (7069)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] INFO : Dispatcher: webrick
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7206
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 13:07:11 -0400 michaels-MacBook-Air.local (7206)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] INFO : Dispatcher: webrick
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7397
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 13:45:39 -0400 michaels-MacBook-Air.local (7397)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] INFO : Dispatcher: webrick
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7684
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 14:39:44 -0400 michaels-MacBook-Air.local (7684)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] INFO : Dispatcher: webrick
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7910
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 14:53:20 -0400 michaels-MacBook-Air.local (7910)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] INFO : Dispatcher: webrick
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 8279
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 15:29:04 -0400 michaels-MacBook-Air.local (8279)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] INFO : Dispatcher: webrick
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 8583
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 16:08:42 -0400 michaels-MacBook-Air.local (8583)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] INFO : Dispatcher: webrick
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 8607
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 16:14:13 -0400 michaels-MacBook-Air.local (8607)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] INFO : Dispatcher: webrick
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 8648
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 16:22:54 -0400 michaels-MacBook-Air.local (8648)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] INFO : Dispatcher: webrick
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 8733
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 16:45:42 -0400 michaels-MacBook-Air.local (8733)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] INFO : Dispatcher: webrick
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 9173
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[10/31/12 18:11:49 -0400 michaels-MacBook-Air.local (9173)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] INFO : Dispatcher: webrick
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 9971
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/01/12 09:01:05 -0400 michaels-MacBook-Air.local (9971)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/01/12 09:47:36 -0400 michaels-MacBook-Air.local (10280)] INFO : Dispatcher: webrick
+[11/01/12 09:47:36 -0400 michaels-MacBook-Air.local (10280)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/01/12 09:47:36 -0400 michaels-MacBook-Air.local (10280)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/01/12 09:47:36 -0400 michaels-MacBook-Air.local (10280)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 10280
+[11/01/12 09:47:36 -0400 michaels-MacBook-Air.local (10280)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/01/12 09:47:37 -0400 michaels-MacBook-Air.local (10280)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/01/12 09:55:44 -0400 michaels-MacBook-Air.local (10280)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert Symbol into Integer
+[11/01/12 09:55:44 -0400 michaels-MacBook-Air.local (10280)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert Symbol into Integer
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] INFO : Dispatcher: webrick
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 10649
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/01/12 10:47:22 -0400 michaels-MacBook-Air.local (10649)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] INFO : Dispatcher: webrick
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 10659
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/01/12 10:47:42 -0400 michaels-MacBook-Air.local (10659)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] INFO : Dispatcher: webrick
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 11380
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/01/12 15:38:06 -0400 michaels-MacBook-Air.local (11380)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] INFO : Dispatcher: webrick
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 2054
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/06/12 16:54:31 -0500 michaels-MacBook-Air.local (2054)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] INFO : Dispatcher: webrick
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 6609
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/07/12 13:07:07 -0500 michaels-MacBook-Air.local (6609)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] INFO : Dispatcher: webrick
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 6813
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/07/12 13:46:56 -0500 michaels-MacBook-Air.local (6813)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] INFO : Dispatcher: webrick
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7433
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/07/12 14:54:13 -0500 michaels-MacBook-Air.local (7433)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] INFO : Dispatcher: webrick
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 7574
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/07/12 15:13:14 -0500 michaels-MacBook-Air.local (7574)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] INFO : Dispatcher: webrick
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 17907
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/12/12 14:06:13 -0500 michaels-MacBook-Air.local (17907)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] INFO : Dispatcher: webrick
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 18712
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/12/12 16:03:46 -0500 michaels-MacBook-Air.local (18712)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 13:54:24 -0500 michaels-MacBook-Air.local (21163)] INFO : Dispatcher: webrick
+[11/13/12 13:54:24 -0500 michaels-MacBook-Air.local (21163)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 13:54:24 -0500 michaels-MacBook-Air.local (21163)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 13:54:24 -0500 michaels-MacBook-Air.local (21163)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21163
+[11/13/12 13:54:24 -0500 michaels-MacBook-Air.local (21163)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 13:54:25 -0500 michaels-MacBook-Air.local (21163)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] INFO : Dispatcher: webrick
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21181
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 13:58:16 -0500 michaels-MacBook-Air.local (21181)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 14:02:16 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:02:17 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:02:46 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:02:47 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:17 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:18 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:31 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:31 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:55 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:04:56 -0500 michaels-MacBook-Air.local (21181)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: can't convert nil into String
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] INFO : Dispatcher: webrick
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21207
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 14:05:52 -0500 michaels-MacBook-Air.local (21207)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] INFO : Dispatcher: webrick
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21497
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 15:11:39 -0500 michaels-MacBook-Air.local (21497)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] INFO : Dispatcher: webrick
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21549
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 15:11:55 -0500 michaels-MacBook-Air.local (21549)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] INFO : Dispatcher: webrick
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21576
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 15:19:22 -0500 michaels-MacBook-Air.local (21576)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] INFO : Dispatcher: webrick
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21682
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 15:52:15 -0500 michaels-MacBook-Air.local (21682)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] INFO : Dispatcher: webrick
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 21690
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 15:53:57 -0500 michaels-MacBook-Air.local (21690)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] INFO : Dispatcher: webrick
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 22416
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/13/12 17:19:28 -0500 michaels-MacBook-Air.local (22416)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] INFO : Dispatcher: webrick
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 24686
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/14/12 11:15:46 -0500 michaels-MacBook-Air.local (24686)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] INFO : Dispatcher: webrick
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 26854
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/14/12 18:37:21 -0500 michaels-MacBook-Air.local (26854)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/15/12 14:10:39 -0500 michaels-MacBook-Air.local (29614)] INFO : Dispatcher: webrick
+[11/15/12 14:10:39 -0500 michaels-MacBook-Air.local (29614)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/15/12 14:10:39 -0500 michaels-MacBook-Air.local (29614)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/15/12 14:10:39 -0500 michaels-MacBook-Air.local (29614)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 29614
+[11/15/12 14:10:39 -0500 michaels-MacBook-Air.local (29614)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/15/12 14:10:40 -0500 michaels-MacBook-Air.local (29614)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] INFO : Dispatcher: webrick
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 29847
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/15/12 14:59:52 -0500 michaels-MacBook-Air.local (29847)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] INFO : Dispatcher: webrick
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 29893
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/15/12 15:11:20 -0500 michaels-MacBook-Air.local (29893)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] INFO : Dispatcher: webrick
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 29911
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/15/12 15:15:09 -0500 michaels-MacBook-Air.local (29911)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] INFO : Dispatcher: webrick
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 31703
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/16/12 11:46:55 -0500 michaels-MacBook-Air.local (31703)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] INFO : Dispatcher: webrick
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 32545
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/16/12 15:09:00 -0500 michaels-MacBook-Air.local (32545)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] INFO : Dispatcher: webrick
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 32556
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/16/12 15:10:09 -0500 michaels-MacBook-Air.local (32556)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present
+[11/16/12 15:19:36 -0500 michaels-MacBook-Air.local (32593)] INFO : Dispatcher: webrick
+[11/16/12 15:19:36 -0500 michaels-MacBook-Air.local (32593)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[11/16/12 15:19:36 -0500 michaels-MacBook-Air.local (32593)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[11/16/12 15:19:36 -0500 michaels-MacBook-Air.local (32593)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 32593
+[11/16/12 15:19:36 -0500 michaels-MacBook-Air.local (32593)] INFO : Agent Log at /Users/michaelmagner/code/bunt_web_app/log/newrelic_agent.log
+[11/16/12 15:19:37 -0500 michaels-MacBook-Air.local (32593)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler sampler not available: No DJ worker present

@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <b>App:</b>
+  <%= @template.app %>
+</p>
+
+<p>
+  <b>Email type:</b>
+  <%= @template.target %>
+</p>
+<p>
+  <b>Version:</b>
+  <%= @template.version %>
+</p>
+
+<p>
+  <b>Subject:</b>
+  <%= @template.subject %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @template.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_template_path(@template) %> |
+<%= link_to 'Back', templates_path %>

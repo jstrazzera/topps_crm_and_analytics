@@ -1,0 +1,33 @@
+<%= form_for(@nfl_game) do |f| %>
+  <% if @nfl_game.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@nfl_game.errors.count, "error") %> prohibited this nfl_game from being saved:</h2>
+
+      <ul>
+      <% @nfl_game.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :team_1_id %><br />
+    <%# @team_options = @nfl_teams.map {|team| [team.name, team.id]} %>
+    <%#= f.select (:team_1_id, @team_options) %>
+    <%= f.select(:team_1_id, NflTeam.all.map {|team| [team.name, team.id]}) %>
+    <%#= f.number_field :team_1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :team_2_id %><br />
+    <%= f.select(:team_2_id, NflTeam.all.map {|team| [team.name, team.id]}) %>
+    <%#= f.number_field :team_2_id %>
+  </div>
+  <div class="field">
+    <%= f.label :game_start %><br />
+    <%= f.datetime_select(:game_start, default: {minute: 0}) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

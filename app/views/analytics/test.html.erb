@@ -1,0 +1,245 @@
+
+
+
+
+<script type="text/javascript">
+
+ //    var chart;
+ //    var chartData = [];
+ //    var chartCursor;
+
+ //    fetchChartData()
+	// // SERIAL CHART    
+
+ //    chart = new AmCharts.AmSerialChart();
+	// chart.pathToImages = "/assets/amcharts/";
+
+ //    chart.dataProvider = chartData;
+ //    chart.categoryField = "date";
+
+
+
+// $().ready(function() {
+
+//     function get_chart_data(data_type) {
+//         var get_result = [];
+//         $.ajax({url: "/analytics/data/" + data_type, 
+//                     async: false, 
+//                     success: function(data){
+//                          get_result = data["data"];
+//                     }
+//                 });
+//         return get_result;
+//     }
+//     var x = get_chart_data("dau_last_2_weeks");
+//     console.log(x);
+
+
+
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // function fetchChartData(data_type) {
+    // 	var get_result = [];
+    // 	var ajax_done = false
+    // 	console.log(data_type);
+    // 	$.ajax({url: "/analytics/data/" + data_type, 
+    // 			ajax: false, 
+    // 			success: function(data){
+    // 		// if(data["success"] == true) {
+	   //  			get_result = data["data"];
+	   //  			console.log(get_result);
+	   //  			x=get_result;
+	   //  			ajax_done = true;
+    // 		// }
+    // 				}
+
+    			
+    // 			});
+    // 	console.log("jhere");
+    // 	while(ajax_done==false) {
+    // 		setTimeout(console.log("not done...."), 5000);
+
+    // 	}
+    // 	console.log("DONE!");
+    // 	console.log(get_result);
+    
+
+    // }
+
+
+
+    // $().ready(function(){
+    // 	fetchChartData("dau_last_2_weeks");
+    // 	// console.log(x);
+    // });
+
+
+
+
+
+
+
+</script>
+<!-- 
+
+
+
+        var chart;
+        var chartData = [];
+        var chartCursor;
+
+        AmCharts.ready(function () {
+            // generate some data first
+            generateChartData();
+
+            // SERIAL CHART    
+            chart = new AmCharts.AmSerialChart();
+            chart.pathToImages = "/assets/amcharts/";
+            chart.zoomOutButton = {
+                backgroundColor: '#000000',
+                backgroundAlpha: 0.15
+            };
+            chart.dataProvider = chartData;
+            chart.categoryField = "date";
+
+            // listen for "dataUpdated" event (fired when chart is rendered) and call zoomChart method when it happens
+            chart.addListener("dataUpdated", zoomChart);
+
+            // AXES
+            // category
+            var categoryAxis = chart.categoryAxis;
+            categoryAxis.parseDates = true; // as our data is date-based, we set parseDates to true
+            categoryAxis.minPeriod = "DD"; // our data is daily, so we set minPeriod to DD
+            categoryAxis.dashLength = 1;
+            categoryAxis.gridAlpha = 0.15;
+            categoryAxis.axisColor = "#DADADA";
+
+            // value                
+            var valueAxis = new AmCharts.ValueAxis();
+            valueAxis.axisAlpha = 0.2;
+            valueAxis.dashLength = 1;
+            chart.addValueAxis(valueAxis);
+
+            // GRAPH
+            var graph = new AmCharts.AmGraph();
+            graph.title = "red line";
+            graph.valueField = "visits";
+            graph.bullet = "round";
+            graph.bulletBorderColor = "#FFFFFF";
+            graph.bulletBorderThickness = 2;
+            graph.lineThickness = 2;
+            graph.lineColor = "#b5030d";
+            graph.negativeLineColor = "#0352b5";
+            graph.hideBulletsCount = 50; // this makes the chart to hide bullets when there are more than 50 series in selection
+            chart.addGraph(graph);
+
+            var graph2 = new AmCharts.AmGraph();
+            graph2.title = "red line";
+            graph2.valueField = "visits2";
+            graph2.bullet = "round";
+            graph2.bulletBorderColor = "#FFFFFF";
+            graph2.bulletBorderThickness = 2;
+            graph2.lineThickness = 2;
+            graph2.lineColor = "#b5030d";
+            graph2.negativeLineColor = "#0352b5";
+            graph2.hideBulletsCount = 50; // this makes the chart to hide bullets when there are more than 50 series in selection
+            chart.addGraph(graph2);
+
+
+            // CURSOR
+            chartCursor = new AmCharts.ChartCursor();
+            chartCursor.cursorPosition = "mouse";
+            chart.addChartCursor(chartCursor);
+
+            // SCROLLBAR
+            var chartScrollbar = new AmCharts.ChartScrollbar();
+            chartScrollbar.graph = graph;
+            chartScrollbar.scrollbarHeight = 40;
+            chartScrollbar.color = "#FFFFFF";
+            chartScrollbar.autoGridCount = true;
+            chart.addChartScrollbar(chartScrollbar);
+
+            // WRITE
+            chart.write("chartdiv");
+        });
+
+        // generate some random data, quite different range
+        function generateChartData() {
+            var firstDate = new Date();
+            firstDate.setDate(firstDate.getDate() - 500);
+
+            for (var i = 0; i < 500; i++) {
+                var newDate = new Date(firstDate);
+                newDate.setDate(newDate.getDate() + i);
+
+                var visits = Math.round(Math.random() * 100) - 20;
+
+                chartData.push({
+                    date: newDate,
+                    visits: visits,
+                    visits2: visits + 50
+
+                });
+            }
+        }
+
+        function fetchDauTwoWeeks() {
+            $.get(api_endpoint, function(data) {
+                if(data["success"] == true) {
+                     
+                }
+            }); 
+
+
+
+        }
+
+        // this method is called when chart is first inited as we listen for "dataUpdated" event
+        function zoomChart() {
+            // different zoom methods can be used - zoomToIndexes, zoomToDates, zoomToCategoryValues
+            chart.zoomToIndexes(chartData.length - 40, chartData.length - 1);
+        }
+        
+        // changes cursor mode from pan to select
+        function setPanSelect() {
+            if (document.getElementById("rb1").checked) {
+                chartCursor.pan = false;
+                chartCursor.zoomable = true;
+                
+            } else {
+                chartCursor.pan = true;
+            }
+            chart.validateNow();
+        }             -->

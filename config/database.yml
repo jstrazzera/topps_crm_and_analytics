@@ -1,0 +1,25 @@
+defaults: &defaults
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  username: xxxxxxxx
+  password: xxxxxxxx
+
+
+  
+development:
+  database: bunt_web_app_development
+  pool: 5
+  timeout: 5000
+  port: 5432
+  <<: *defaults
+
+
+test:
+  database: bunt_web_app_test
+  <<: *defaults
+
+production:
+  database: bunt_web_app_production
+  <<: *defaults
+

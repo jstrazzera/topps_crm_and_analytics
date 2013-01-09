@@ -1,0 +1,73 @@
+QUEUE NAME:
+bunt_notification
+
+Type:
+Trades
+
+Encode method:
+JSON encoded in base64
+
+Packet keys/values:
+"kind" 
+- text
+- values: "offer", "accept"
+
+"trade_id":
+- integer
+- key to id in mlb_trades table
+
+Example:
+{"kind": "offer", "trade_id": 497149}
+
+******************************************
+
+QUEUE NAME:
+bunt_general
+
+Type:
+Various fan messages
+
+Encode method:
+JSON encoded in base64
+
+Packet keys/values:
+"kind" 
+- text
+- values: "joined", "player_news", "welcome"
+
+"of_fan":
+- integer
+- key to id in fans table, pointing to the fan who joined
+- "joined" type only
+
+"for_fan":
+- integer
+- key to id in fans table, pointing to the fan is to be sent an email/apns notice
+- "joined" type only
+
+"blurb_id":
+- integer
+- key to id in mlb_blurbs table, pointing to the article
+- "player_news" type only
+
+"fan_id"
+- integer
+- key to id in fans table, pointing to the fan who joined and should be sent an email
+- "welcome" type only
+
+Example for "joined":
+This is a message queued when a friend joins BUNT. Of
+{"kind": "joined", "of_fan": 100, "for_fan": 120}
+
+Example for "player_news":
+{"kind": "joined", "of_fan": 100, "for_fan": 120}
+
+Example for "welcome":
+{"kind": "welcome", "fan_id": 100}
+
+
+Sorry, it does have the kind "player_news". The blurb row in mlb_blurb has a field called
+
+player_id
+
+Note that user_id refers to the writer of the article, not the fan. So you can ignore that.

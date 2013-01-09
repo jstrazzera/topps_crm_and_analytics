@@ -1,0 +1,36 @@
+<%= stylesheet_link_tag "header" %>
+<header>
+	<div id="header_content_wrap">
+		<%= link_to (image_tag "white_topps_logo.png", id: "white_topps_logo"), "http://www.topps.com" %>
+		<div class="link_div link_div_current"><div class="inner_box">TOPPS BUNT</div></div>
+    <div class="link_div "><div class="inner_box"><%= link_to  "TIME CAPSULE", "http://pennant.topps.com/timecapsule" %></div></div>
+		<div class="link_div "><div class="inner_box"><%= link_to  "TOPPS PENNANT", "http://pennant.topps.com" %></div></div>
+
+
+
+		<%= image_tag "mailinglist.png", id: "mailing_list_signup_button" %>
+
+
+	</div>
+</header>
+<%= render partial: "mailing_list_overlay" unless @browser.iphone? %>
+
+<script>
+$(document).ready(function() {
+    $("#mailing_list_signup_button").click(function(event){
+        if($("#email_list_overlay").css("display") === "none") {
+          $("#email_list_overlay").show();
+          $("#sms_overlay").hide();
+        }
+        else {
+          $("#email_list_overlay").hide();
+        }
+        
+        event.preventDefault(); // Prevent link from following its href
+    });
+ });
+
+
+
+
+</script>

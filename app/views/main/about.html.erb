@@ -1,0 +1,45 @@
+<%= stylesheet_link_tag "main_promo_page" %>
+<%= stylesheet_link_tag "info_page" %>
+<%= stylesheet_link_tag "mobile_promo_page" if @browser.ipad? %>
+<% if @browser.ipad? %>
+<head>
+	<style type="text/css">
+	header #header_content_wrap {
+		padding-left: 80px;
+	}
+		</style>
+</head>
+<% end %>
+
+<%= render partial: "header" unless @browser.iphone? %>
+<div id="info_text">
+
+<h1>WHAT IS TOPPS BUNT?</h1>
+ 
+Topps BUNT is like becoming a bleacher creature. You sit around, talk baseball, follow players and occasionally heckle them, compete with other fans and your friends, and earn points for doing a good job of it. Could there be anything better? Probably not.<br><br>
+
+Soooo. Royals fans? Here’s your chance to beat the Yankees. Wondering about Prince Fielder and Miguel Cabrera’s secret handshake? This is your chance to find out. Want to know who of your friends knows the most about baseball? Prove it.<br>
+<h1>THE RUNDOWN</h1>
+<h2>THE FIRST PITCH</h2>
+Sign up with Facebook, Twitter, or email. Pick your favorite team and represent. Don’t let the Yankees win this too.
+
+<h2>TAKE THE FIELD</h2>
+Open a pack of 9 Major League players right off the bat. No need to field a full roster, just collect the players you like or think will help you score. If you want only NL first basemen, that’s your choice. 
+
+<h2>GET POINTS</h2>
+Your players do good things, you get more points. It’s not brain surgery. Watch your point total rise as you’re watching your favorite players. Get lots of points and unlock new avatars. Want Mr. Met? You’ll have to earn him.
+
+<h2>TRADE UP</h2>
+Don’t like a player? Want a personal favorite? Like Brian Wilson’s beard? Find a friend and trade. Earn points for being a savvy trader with trade bonuses, and if you don’t like the offer, tell your trading partner to bug off.
+
+<h2>COMPETE AND WIN</h2>
+You’re going down old man. Add friends and family members to your Friends Leaderboard and compete to find out who’s a better fan. Live in a cabin in the woods by yourself? Well, you can compete against the world. You’ll also be pitted other fans of your favorite team, in your location, or since you joined.
+<% if browser.iphone? %>
+<div id="footer">
+	<div id="tos_and_pp">Topps BUNT <%= link_to "Terms of Service", :terms %> and <%= link_to "Privacy Policy", :privacy %></div>
+	<div id="tm_boilerplate">&copy 2012 The Topps Company, Inc. All Rights Reserved. TOPPS&reg AND TOPPS BUNT ARE TRADEMARKS OF THE TOPPS COMPANY, INC.  Major League Baseball trademarks and copyrights are used with permission of MLB Advanced Media, LP.  OFFICIALLY LICENSED PRODUCT OF MLBAM.  Visit MLB.com.  LICENSED BY MLBPA, 2012. &copy MLBPA.  OFFICIAL LICENSEE - MAJOR LEAGUE BASEBALL PLAYERS ASSOCIATION.</div>
+</div>
+
+<% else %>
+<%= render partial: "footer" %>
+<% end %>

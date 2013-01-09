@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Method:</b>
+  <%= @message_log.method %>
+</p>
+
+<p>
+  <b>Kind:</b>
+  <%= @message_log.kind %>
+</p>
+
+<p>
+  <b>Fan:</b>
+  <%= @message_log.fan_id %>
+</p>
+
+<p>
+  <b>Success:</b>
+  <%= @message_log.success %>
+</p>
+
+
+<%= link_to 'Edit', edit_message_log_path(@message_log) %> |
+<%= link_to 'Back', message_logs_path %>

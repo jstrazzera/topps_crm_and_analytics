@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Team 1:</b>
+  <%= @nfl_game.team_1.name %>
+</p>
+
+<p>
+  <b>Team 2:</b>
+  <%= @nfl_game.team_2.name %>
+</p>
+
+<p>
+  <b>Game start:</b>
+  <%= @nfl_game.game_start %>
+</p>
+
+
+<%= link_to 'Edit', edit_nfl_game_path(@nfl_game) %> |
+<%= link_to 'Back', nfl_games_path %>
+<%= link_to 'New Nfl game', new_nfl_game_path %>

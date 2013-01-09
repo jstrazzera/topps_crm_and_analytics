@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Address:</b>
+  <%= @invalid_email.address %>
+</p>
+
+<p>
+  <b>Reason:</b>
+  <%= @invalid_email.reason %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @invalid_email.date %>
+</p>
+
+
+<%= link_to 'Edit', edit_invalid_email_path(@invalid_email) %> |
+<%= link_to 'Back', invalid_emails_path %>

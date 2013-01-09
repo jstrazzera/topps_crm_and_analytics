@@ -1,0 +1,29 @@
+<h1>Listing message_logs</h1>
+
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Kind</th>
+    <th>Fan</th>
+    <th>Success</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @message_logs.each do |message_log| %>
+  <tr>
+    <td><%= message_log.method %></td>
+    <td><%= message_log.kind %></td>
+    <td><%= message_log.fan_id %></td>
+    <td><%= message_log.success %></td>
+    <td><%= link_to 'Show', message_log %></td>
+    <td><%= link_to 'Edit', edit_message_log_path(message_log) %></td>
+    <td><%= link_to 'Destroy', message_log, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Message log', new_message_log_path %>

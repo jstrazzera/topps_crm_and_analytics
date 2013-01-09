@@ -1,0 +1,13 @@
+<%= render partial: "dau_stats" %>
+<% %w(activation_overall_fans activation_verified_fans
+activation_trades_offered_fans
+activation_trades_offered_to_fans
+activation_shoutout_fans).each do |chart_type| %>
+	<h3><%= chart_type.gsub("activation_", "") %></h3><br>
+	<div id="<%=chart_type%>" style="width: 100%; height: 400px;"></div>
+	hi magz
+	<script>
+		create_generic_0_3_7_chart("<%=chart_type%>");
+
+	</script>
+<% end %>

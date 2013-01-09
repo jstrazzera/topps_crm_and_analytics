@@ -1,0 +1,96 @@
+body {
+	height: 1200px;
+	width: 100%;
+}
+#stadium {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#background {
+	width: 100%;
+}
+
+#focus_avatar_section {
+	position: absolute;
+	z-index: 25;
+	display: inline;
+	top: 480px;
+/*	left: 20%;
+*/	left: 23%;
+	height: 900px;
+	overflow-y: hidden;
+}
+
+#focus_avatar_section #focus_avatar {
+	height: 100%;
+}
+
+#focus_avatar_section #focus_avatar_message {
+	z-index: inherit;
+	position: absolute;
+	font-size: 3.0em;
+	width: 80%;
+	height: 11%;
+	left: 12%;
+	top: 4%;
+	text-align: center;
+	color: #e4416c;
+	font-family: "HermesBold", helvetica;
+	font-weight: bold;
+
+
+}
+
+#focus_avatar_section #user_info {
+	z-index: inherit;
+	position: absolute;
+	width: 150px;
+	top: 17%;
+	left: 13%;
+	height: 8%;
+	font-size: 1em;
+}
+
+#focus_avatar_section #team_logo {
+	z-index: inherit;
+	position: absolute;
+	top: 20%;
+	left: 75%;
+	height: 8%;
+	}
+
+
+#focus_avatar_section #get_the_app_button {
+	position: absolute;
+	left: 165px;
+	top: 27%;
+	width: 46%;
+
+
+}
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 25%;
+	z-index: 1000;
+	height: 325px;
+}
+#footer {
+	background-color: #e4416c;
+	text-align: center;
+	font-size: 1.2em;
+	top: 1290px;
+	font-family: helvetica;
+	position: absolute;
+	z-index: 1000;
+	width: 100%;}
+
+#footer #tos_and_pp, #footer #tm_boilerplate {
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer #tm_boilerplate {
+	width: 800px;	
+}

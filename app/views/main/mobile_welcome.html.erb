@@ -1,0 +1,46 @@
+<%= stylesheet_link_tag "mobile_promo_page" %>
+
+<div id="stadium">
+<%= image_tag "promo_page/mobile_background.jpg", id: "background" %>
+<%= image_tag "promo_page/bunt_mobile_logo.png", id: "logo" %>
+
+<% if @focus_avatar[:message].length > 50 %>
+	<head><style type="text/css">#focus_avatar_section #focus_avatar_message{font-size: 1.75em;}</style><head>
+<% end %>
+
+<div id="focus_avatar_section">
+	<div id="focus_avatar_message"><%= @focus_avatar[:message] %></div>
+	<div id="user_info">
+		<em><%#= @focus_avatar[:user_name] %></em><br>
+		<%#= @focus_avatar[:user_location] %><br>
+		<%#= @focus_avatar[:user_score] %><br>		
+	</div>
+	<%# unless @disable_app_store_link %>
+	<%= link_to(image_tag("promo_page/focus_avatar/official_app_store_button.png", id: "get_the_app_button"), "http://itunes.apple.com/us/app/topps-bunt-baseball/id514398862?mt=8", 
+			id: "app_store_link") %>
+	<%# end %>
+	<%= image_tag "promo_page/focus_avatar/" + @focus_avatar[:avatar] + ".png", id: "focus_avatar" %>
+
+	</div>
+</div>
+
+<div id="footer">
+	<div id="tos_and_pp">Topps BUNT <%= link_to "Terms of Service", :terms %> and <%= link_to "Privacy Policy", :privacy %></div>
+	<div id="tm_boilerplate">&copy 2012 The Topps Company, Inc. All Rights Reserved. TOPPS&reg AND TOPPS BUNT ARE TRADEMARKS OF THE TOPPS COMPANY, INC.  Major League Baseball trademarks and copyrights are used with permission of MLB Advanced Media, LP.  OFFICIALLY LICENSED PRODUCT OF MLBAM.  Visit MLB.com.  LICENSED BY MLBPA, 2012. &copy MLBPA.  OFFICIAL LICENSEE - MAJOR LEAGUE BASEBALL PLAYERS ASSOCIATION.</div>
+</div>
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6292203-1']);
+  _gaq.push(['_setDomainName', '.topps.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setAllowHash', false]);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>

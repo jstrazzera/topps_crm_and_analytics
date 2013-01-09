@@ -1,0 +1,9 @@
+<% @bleacher_fans_and_text.each do |fan, text| %>
+	<div class="bleacher_fan" id="<%= fan %>">
+		<div class="hover_hotspot"></div>
+		<div class="hover_message_box"><div id="container"><div id="position"><div id="content">
+<%= text %></div></div></div></div>
+
+		<%= avatar_image_tag fan %>
+	</div>
+<% end %>

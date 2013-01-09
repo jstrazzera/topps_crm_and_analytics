@@ -1,0 +1,65 @@
+MOST TRADED FOR PLAYERS <br>
+<div id="most_traded_for_players" style="width: 100%; height: 400px;"></div><br>
+
+<script type="text/javascript">
+
+
+    AmCharts.ready(function () {
+        var chart;
+
+        var chartData = [];
+
+        function ajaxChartData(data_type) {
+            var get_result = [];
+            $.ajax({url: "/analytics/data/" + data_type, 
+                    async: false, 
+                    success: function(data){
+                        chartData = data["data"];
+                    }
+            })
+        }
+
+
+        // SERIAL CHART
+        chart = new AmCharts.AmSerialChart();
+        ajaxChartData = ajaxChartData("most_traded_for_players")
+        chart.dataProvider = chartData;
+        chart.categoryField = "player_name";
+        // this single line makes the chart a bar chart, 
+        // try to set it to false - your bars will turn to columns                
+        chart.rotate = true;
+        // the following two lines makes chart 3D
+        // chart.depth3D = 20;
+        // chart.angle = 30;
+
+        // AXES
+        // Category
+        var categoryAxis = chart.categoryAxis;
+        categoryAxis.gridPosition = "start";
+        categoryAxis.axisColor = "#DADADA";
+        categoryAxis.fillAlpha = 1;
+        categoryAxis.gridAlpha = 0;
+        categoryAxis.fillColor = "#FAFAFA";
+
+        // value
+        var valueAxis = new AmCharts.ValueAxis();
+        valueAxis.axisColor = "#DADADA";
+        // valueAxis.title = "Income in millions, USD";
+        valueAxis.gridAlpha = 0.1;
+        chart.addValueAxis(valueAxis);
+
+        // GRAPH
+        var graph = new AmCharts.AmGraph();
+        graph.title = "Trades Offered";
+        graph.valueField = "trades_offered";
+        graph.type = "column";
+        graph.balloonText = "Trades offered for  [[player_name]]:[[trades_offered]]";
+        graph.lineAlpha = 0;
+        graph.fillColors = "#bf1c25";
+        graph.fillAlphas = 1;
+        chart.addGraph(graph);
+
+        // WRITE
+        chart.write("most_traded_for_players");
+    });
+</script>

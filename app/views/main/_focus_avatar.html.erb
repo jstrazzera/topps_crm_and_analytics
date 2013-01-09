@@ -1,0 +1,50 @@
+<% if @focus_avatar[:message].length > 50 %>
+	<head><style type="text/css">#focus_avatar_section #focus_avatar_message{font-size: 1.05em; line-height: 155%;}</style><head>
+<% end %>
+
+<span id="focus_avatar_section">
+	<div id="focus_avatar_message"><%= @focus_avatar[:message] %></div>
+	<div id="user_info">
+		<em><%= @focus_avatar[:user_name] %></em><br>
+		<%= @focus_avatar[:user_location] %><br>
+		<%= @focus_avatar[:user_score] %><br>		
+	</div>
+	<%# if (@browser.mobile? && !browser.android?) %>
+	<% if @browser.iphone? %>
+	<%#= link_to(image_tag("promo_page/focus_avatar/official_app_store_button.png", id: "get_the_app_button"), "http://itunes.com/app/toppsbunt", :id => "get_the_app_link") %>
+	<% elsif @browser.ipad? %>
+	<%= link_to(image_tag("app_store_button_black.png", id: "get_the_app_button"), "http://itunes.com/app/toppsbunt", :id => "get_the_app_link") %> 	
+	<% else %>
+	<%= link_to(image_tag("app_store_button_black.png", id: "get_the_app_button"), "http://topps.com", :id => "get_the_app_link") %>
+	<% end %>
+	<%= image_tag "promo_page/focus_avatar/" + @focus_avatar[:avatar] + ".png", id: "focus_avatar" %>
+
+</span>
+
+
+<script>
+<% unless @browser.mobile? %>
+$(document).ready(function() {
+    $("#get_the_app_link").click(function(event){
+        if($("#sms_overlay").css("display") === "none") {
+          $("#sms_overlay").show();
+          $("#email_list_overlay").hide();
+
+        }
+        else {
+          $("#sms_overlay").hide();
+        }
+        
+        event.preventDefault(); 
+    });
+   $("#get_the_app_button").hover(function(){
+   	$(this).attr("src", "<%= asset_path "app_store_button_green.png"%>");},
+   	function(){
+     $(this).attr("src", "<%= asset_path "app_store_button_black.png"%>");
+   	});
+
+
+
+});
+<% end %>
+</script>

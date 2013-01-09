@@ -1,0 +1,10 @@
+1.  Main backed server places message in sqs
+2.  Long running CRM task (rake task) monitoring sqs picks up messages
+3.  Long running CRM task parses message from sqs and creates local tasks to send emails/pushes
+	a.	In the case of news messages, this requires some additional database calls in order to figure out all of the users who ought to receive a message
+4.  Second task (worker task) works off this list of tasks 
+	a.  It pulls templates from local database (modifiable via CMS)
+	b.  It pulls data from remote database to fill out those templates
+	c.  Fills out templates
+	d.  Checks that the user is not on the hard bound blacklist AND wants to receive the message in question
+	e.  If so, sends a message, either via the twister push server OR via send grid (both via post http request)

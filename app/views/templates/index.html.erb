@@ -1,0 +1,32 @@
+<%= link_to 'New Email template', new_template_path %>
+
+<h1>Listing Templates</h1>
+
+<table>
+  <tr>
+    <th>App</th>
+    <th>Email type</th>
+    <th>Version</th>
+    <th>Subject</th>
+    <th>Body</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @templates.each do |template| %>
+  <tr>
+    <td><%= template.app %></td>
+    <td><%= template.target %></td>
+    <td><%= template.version %></td>
+    <td><%= template.subject %></td>
+    <td><%= template.body %></td>
+    <td><%= link_to 'Show', template %></td>
+    <td><%= link_to 'Edit', edit_template_path(template) %></td>
+    <td><%= link_to 'Destroy', template, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

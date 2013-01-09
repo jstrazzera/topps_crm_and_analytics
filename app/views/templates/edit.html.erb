@@ -1,0 +1,30 @@
+<!-- Brief schema stuff:<br>
+evertyhing is accessible via the info hash<br>
+e.g. info["user1"]["email"]<br>
+
+For trades, user1 is the player having a trade proposed TO him and user2 is the player PROPOSING
+Also for trades info on players being traded can be access via info["offered_player"] and info["traded_for_player"]
+
+Below find the schema for the models to be used in the emails...any and all elements should be accessible as described above
+ -->
+<%# [[Fan, "user1 OR user2"], [MlbTrade, "trade"], [MlbPlayer, "offered_player OR traded_for_player"], [MlbNews, "news"]].each do |x, y| %>
+
+	<br><b><%#= y %></b>
+	<ul><%# x.last.attributes.keys.each do |key| %><br>
+		<li><%#= key %></li>
+	<%# end %></ul>
+
+
+<%# end %>
+
+
+<h1>Editing template</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @template %> |
+<%= link_to 'Back', templates_path %>
+
+
+
+

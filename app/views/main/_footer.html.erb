@@ -1,0 +1,47 @@
+<%= stylesheet_link_tag "footer" %>
+
+<div id="footer">
+	<div id="left_column">
+		<div id="social_media_buttons">
+			<div class="fb-like" data-send="false" data-layout="button_count" data-width="48" data-show-faces="true" data-font="verdana"></div>
+			<a href="https://twitter.com/toppsbuntcast" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @toppsbuntcast</a><br>
+			<a href="https://twitter.com/share" class="twitter-hashtag-button" data-url="http://bit.ly/HspGMg" data-related="@horizontal" data-hashtags="TOPPSBUNT" data-button-hashtag="forthegood" data-text="I'm for the good in Topps BUNT" data-count="horizontal">Tweet #forthegood</a><br>
+			<a href="https://twitter.com/intent/tweet?button_hashtag=fortheyankees&text=I'm%20for%20the%20Yankees%20in%20Topps%20BUNT" class="twitter-hashtag-button" data-url="http://bit.ly/HspGMg" data-hashtags="TOPPSBUNT"data-count="horizontal">Tweet #fortheyankees</a>
+
+
+
+
+
+		</div>
+		<div id="tos_and_pp"> Topps BUNT <%= link_to "Terms of Service", :terms %> and <%= link_to "Privacy Policy", :privacy %></div>
+		<div id="tm_boilerplate">&copy 2012 The Topps Company, Inc. All Rights Reserved. TOPPS&reg AND TOPPS BUNT ARE TRADEMARKS OF THE TOPPS COMPANY, INC.  Major League Baseball trademarks and copyrights are used with permission of MLB Advanced Media, LP.  OFFICIALLY LICENSED PRODUCT OF MLBAM.  Visit MLB.com.  LICENSED BY MLBPA, 2012. &copy MLBPA.  OFFICIAL LICENSEE - MAJOR LEAGUE BASEBALL PLAYERS ASSOCIATION.</div>
+	</div>
+	<div id="right_column">
+		<div id="link_buttons">
+			<%= link_to image_tag("promo_page/footer/about.png"), "about" %>
+			<%= link_to image_tag("promo_page/footer/help.png"), :help %>
+			<%= link_to image_tag("promo_page/footer/blog.png"), :blog %>
+
+		</div>
+		<div id="logo_buttons">
+			<%#= link_to image_tag("promo_page/footer/topps_logo.png"), "http://www.topps.com" %>
+			<%= link_to image_tag("promo_page/footer/mlb_logo.png", style: "position: relative; bottom: 40px;"), "http://www.mlb.com" %>
+			<%= link_to image_tag("promo_page/footer/mlb_logo2.png"), "http://www.mlbplayers.com" %>
+		</div>
+	</div>
+
+</div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+

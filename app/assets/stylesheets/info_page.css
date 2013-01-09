@@ -1,0 +1,23 @@
+#info_text {
+
+  position: relative;
+  width: 1134px;
+  left: 50%;
+  margin-left: -567px;
+  overflow: hidden; 
+  font-family: helvetica;
+  background-color: rgba(156, 193, 211, 0.15);
+  height: 100%;
+}
+
+#info_text b {
+	font-weight: b;
+}
+#footer {
+	margin-top: 20px;
+  position: static;
+  float: left;
+  margin-left: 45px;
+  width: 100%;
+
+}

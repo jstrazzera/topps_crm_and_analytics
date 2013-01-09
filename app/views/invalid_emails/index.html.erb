@@ -1,0 +1,27 @@
+<h1>Listing invalid_emails</h1>
+
+<table>
+  <tr>
+    <th>Address</th>
+    <th>Reason</th>
+    <th>Date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @invalid_emails.each do |invalid_email| %>
+  <tr>
+    <td><%= invalid_email.address %></td>
+    <td><%= invalid_email.reason %></td>
+    <td><%= invalid_email.date %></td>
+    <td><%= link_to 'Show', invalid_email %></td>
+    <td><%= link_to 'Edit', edit_invalid_email_path(invalid_email) %></td>
+    <td><%= link_to 'Destroy', invalid_email, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Invalid email', new_invalid_email_path %>

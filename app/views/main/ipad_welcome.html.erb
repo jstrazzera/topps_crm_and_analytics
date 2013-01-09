@@ -1,0 +1,25 @@
+
+<%= stylesheet_link_tag "shared_welcome" %>
+<%= stylesheet_link_tag "ipad_promo_page" %>
+
+<%= render partial: "header" %>
+
+<div id="stadium" >
+
+	<div id="first_row" class="seat_row"><%= image_tag "promo_page/bleachers/ipad/first_row.png"%></div>
+	<div id="second_row" class="seat_row"><%= image_tag "promo_page/bleachers/ipad/second_row.png"%></div>
+	<div id="third_row" class="seat_row"><%= image_tag "promo_page/bleachers/ipad/third_row.png"%></div>
+
+
+	<%= render partial: "bleacher_fans" %>
+
+	<%= render partial: "focus_avatar" %>
+</div>
+
+<div id="bottom_slogan"><span id="text">BLEACHERS FULL O' KNUCKLEBALLS!!!</span></div>
+
+<%= render partial: "footer" %>
+
+<%= render partial: "sms_overlay" %> 
+
+<%= javascript_include_tag :promo_page %>

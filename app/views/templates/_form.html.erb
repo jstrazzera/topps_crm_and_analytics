@@ -1,0 +1,42 @@
+<%= form_for(@template) do |f| %>
+  <div class="field">
+    <%= f.label :app %><br />
+    <%= f.text_field :app %>
+  </div>
+
+  <div class="field">
+    <%= f.label :target %><br />
+    <%= f.text_field :target %>
+  </div>
+  <div class="field">
+    <%= f.label :version %><br />
+    <%= f.text_field :version %>
+  </div>
+  <div class="field">
+    <%= f.label :archived %><br />
+    <%= f.check_box :archived %>
+  </div>
+
+  <div class="field">
+    <%= f.label :subject %><br />
+    <%= f.text_area :subject %>
+  </div>
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <div class="field">
+    <%= f.label :deep_link_key %><br />
+    <%= f.text_field :deep_link_key %>
+  </div>
+  <div class="field">
+    <%= f.label :deep_link_value %><br />
+    <%= f.text_field :deep_link_value %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+

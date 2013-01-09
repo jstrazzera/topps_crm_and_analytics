@@ -1,0 +1,4 @@
+class ApnsDevice < RemoteTableModel
+
+
+end

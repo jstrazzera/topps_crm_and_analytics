@@ -1,0 +1,104 @@
+I'll start doing the new queue. Been working on the APNS api. Here it is. You should test by using your own devicetoken from the apns_devices table.
+
+Let me know if you have any questions.
+
+Resource URL
+http://cycle.toppsbunt.com/api/send_apns
+
+Method
+POST
+
+Parameters
+
+devicetoken	
+	- required, string, for example "d16cdfddb1e28d868dc8b513e8a224bb81de1ef4e51bcac1e57d25ce7997fbc9" (this is my iPhone)
+	- note, this is not the same as the deviceuid.
+
+development 
+	- "production" or "sandbox", required if not "production" ie, it will default to "production". Get this value from apns_devices.development field
+
+data
+	- required, format is a json string encoded in base64
+	- see examples below
+
+
+
+
+DATA Packet for Player News APNS
+
+- 1234 is the player.id
+- text of body is the headline from blurb
+
+{
+    "aps": {
+        "alert": {
+            "body": "This is the headline from the blurb",
+            "action-loc-key": "GO"
+        },
+        "sound": "to.caf"
+    },
+    "o": {
+        "p": 1234
+    }
+}
+
+
+DATA Packet for Friends Joined APNS
+
+- ALL CAPS are to be replaced with real or fan_names 
+
+{
+    "aps": {
+        "alert": {
+            "body": "FAN_NAME, your worlds are colliding. REAL_NAME a.k.a. FRIENDS_FAN_NAME, is now on your Friends Leaderboard. Who's winning?",
+            "action-loc-key": "GO"
+        },
+        "sound": "to.caf"
+    },
+    "o": {
+        "f": "FRIENDS_FAN_NAME"
+    }
+}
+
+
+DATA Packet for Trade Offer
+
+body message depends on points to be awarded.
+
+if to_trades_points > 0:
+    body = 'Yo, ' +to_fan_name+'. Dump '+to_player+' and score +' +str(points)+ ' PTS. See who you\'ll get.'
+else:
+    body = 'Yo, ' +to_fan_name+'. Dump '+to_player+' for a better player. See who.'  
+
+{
+    "aps": {
+        "alert": {
+            "body": "Yo, FAN_NAME. Dump PLAYER_NAME and score XX PTS. See who you'll get.",
+            "action-loc-key": "GO"
+        },
+        "sound": "to.caf"
+    },
+    "trade": {
+        "to_fan": "FAN_NAME"
+    },
+    "o": {
+        "t": "-"
+    }
+}
+
+
+DATA Packet for Trade Accept
+
+{
+    "aps": {
+        "alert": {
+            "body": "Boo-yah. You are now the proud owner of a PLAYER_NAME. Learn more about this guy.",
+            "action-loc-key": "GO"
+        },
+        "sound": "to.caf"
+    },
+    "trade": {
+        "from_fan": "FAN_NAME"
+    },
+    "o": {
+        "h": "-"

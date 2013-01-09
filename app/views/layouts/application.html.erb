@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Topps BUNT</title>
+  <link rel="shortcut icon" href="<%= asset_path "promo_page/bunt_favicon.ico"%>" type="image/x-icon" />
+  <!--[if lt IE 9]>
+  <%= javascript_include_tag "html5shiv" %>
+	<![endif]-->
+
+  <%= stylesheet_link_tag "fonts" %>
+  <%= javascript_include_tag "application", "amcharts_2.8.0/amcharts/amcharts", "jquery_periodic" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

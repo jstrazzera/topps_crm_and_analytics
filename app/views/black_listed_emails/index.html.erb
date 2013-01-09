@@ -1,0 +1,25 @@
+<h1>Listing black_listed_emails</h1>
+
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Address</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @black_listed_emails.each do |black_listed_email| %>
+  <tr>
+    <td><%= black_listed_email.type %></td>
+    <td><%= black_listed_email.address %></td>
+    <td><%= link_to 'Show', black_listed_email %></td>
+    <td><%= link_to 'Edit', edit_black_listed_email_path(black_listed_email) %></td>
+    <td><%= link_to 'Destroy', black_listed_email, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Black listed email', new_black_listed_email_path %>

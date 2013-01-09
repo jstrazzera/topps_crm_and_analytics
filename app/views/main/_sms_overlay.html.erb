@@ -1,0 +1,57 @@
+<%= stylesheet_link_tag "sms_overlay" %>
+<div id="sms_overlay">
+  <div id="window">
+    <%= image_tag "promo_page/close_box.gif", id: "close_box" %>
+    <%= form_tag "/send_sms", :remote => true, :id => "sms_overlay_form" do |f|%>
+      Send yourself a link <br>
+        to the App Store<Br><br>
+      By text:
+       <%= telephone_field_tag "phone_number" %>
+      <br>
+       <br/>
+       By email:
+
+       <%= text_field_tag "email_address" %>
+       <br><br>
+       <%= image_submit_tag "promo_page/send.png", :id => "sms_submit" %>
+       <% end %>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+  $(document).ready(function() {
+    // alert("hi magz");
+    $("#sms_overlay_form").bind('ajax:beforeSend', function()  {
+        // alert("sending");
+        $("#sms_submit").attr("disabled", "disabled");
+        $("#sms_submit").text("Sending message...");
+        $("#phone_number").attr("value", "");
+        $("#sms_overlay").hide();
+
+        alert("Thank you!  You will be contacted shortly!");
+        $("#sms_submit").text("Submit");
+        $("#sms_submit").attr("disabled", false);
+
+        // $("#sms_overlay").hide();
+    })
+  });
+  $(document).ready(function() {
+    $("#sms_overlay #close_box").click(function() {
+      $("#sms_overlay").hide();});
+
+  });
+
+
+
+</script>

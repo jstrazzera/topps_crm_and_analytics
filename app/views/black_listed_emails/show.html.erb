@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Type:</b>
+  <%= @black_listed_email.type %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @black_listed_email.address %>
+</p>
+
+
+<%= link_to 'Edit', edit_black_listed_email_path(@black_listed_email) %> |
+<%= link_to 'Back', black_listed_emails_path %>
